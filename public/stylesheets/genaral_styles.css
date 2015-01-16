@@ -1,3 +1,18 @@
 .navbar.navbar-inverse{
 	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.carousel .carousel-indicators li{
+	margin: 0 10px !important;
+}
+
+@media (max-width: 500px) {
+	.carousel p{
+		font-size: 10px;
+	}
+
+	.carousel h1{
+		font-size: 14px;
+	}
 }
