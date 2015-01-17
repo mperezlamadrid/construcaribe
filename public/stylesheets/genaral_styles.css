@@ -82,6 +82,39 @@ ul.nav.navbar-nav li:hover{
 	text-align: justify;
 }
 
+/*OUR SOLUTIONS*/
+
+.our-solutions-body, .our-solutions-header{
+	text-align: center;
+	padding: 60px;
+}
+
+.our-solutions-header{
+	padding-bottom: 0px;
+}
+
+.our-solutions-body .col-md-4{
+	margin-bottom: 40px;
+}
+
+.solutions-imges{
+	background: #ccc;
+	border-radius: 50%;
+	width: 164px;
+	height: 163px;
+	display: inline-block;
+	position: relative;
+}
+
+.solutions-imges img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	margin: auto;
+}
+
 /*MEDIAS*/
 
 @media (max-width: 500px) {
