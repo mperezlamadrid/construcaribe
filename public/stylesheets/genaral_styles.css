@@ -3,6 +3,17 @@
 	margin: 0px;
 }
 
+.title-section{
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.title-section div{
+	text-align: center;
+}
+
+/*HEADER*/
+
 .navbar.navbar-inverse{
 	border-radius: 0px;
 	margin-bottom: 0px;
@@ -12,20 +23,8 @@
 	margin: 0 10px !important;
 }
 
-@media (max-width: 500px) {
-	.carousel p{
-		font-size: 12px;
-	}
-
-	.carousel h1{
-		font-size: 20px;
-	}
-}
-
-@media (max-width: 774px) {
-	#carousel-example-generic, #carousel-example-generic img{
-		height: 310px;
-	}
+ul.nav.navbar-nav li:hover{
+	background-color: #000;
 }
 
 /*FOOTER*/
@@ -63,6 +62,44 @@
 	color: #7F7F7F;
 }
 
+/*MISION*/
+.section-mision{
+	padding: 20px;
+}
+
+.image-mision{
+	padding: 5px;
+	border: 2px solid #000;
+}
+
+.image-mision img{
+	width: 100%;
+	height: 320px;
+}
+
+.text-mision{
+	padding-top: 107px;
+	text-align: justify;
+}
+
+/*MEDIAS*/
+
+@media (max-width: 500px) {
+	.carousel p{
+		font-size: 12px;
+	}
+
+	.carousel h1{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 774px) {
+	#carousel-example-generic, #carousel-example-generic img{
+		height: 310px;
+	}
+}
+
 @media (max-width: 750px) {
 	.bottom-footer{
 		padding: 10px;
@@ -73,5 +110,12 @@
 		text-align: center;
 		width: 100%;
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 991px) {
+	.text-mision{
+		padding-top: 0;
+		margin: 20px 0;
 	}
 }
