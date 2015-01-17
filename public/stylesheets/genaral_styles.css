@@ -9,10 +9,62 @@
 
 @media (max-width: 500px) {
 	.carousel p{
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.carousel h1{
-		font-size: 14px;
+		font-size: 20px;
+	}
+
+	#carousel-example-generic, #carousel-example-generic img{
+		height: 310px;
+	}
+}
+
+/*FOOTER*/
+
+.bottom-footer{
+	background: #2B2B2B;
+	border-bottom: 1px solid #413d3e;
+	padding: 20px;
+}
+
+.legal-links, .menu-links{
+	list-style: none;
+	padding: 0
+}
+
+.legal-links li, .menu-links li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.legal-links li a, .legal-links span, .copyright-footer p{
+	color: white;
+}
+
+.legal-links li a:hover, .menu-links li a:hover{
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.menu-links, .footer-logo h3{
+	margin: 0;
+}
+
+.menu-links li a, .footer-logo h3{
+	color: #7F7F7F;
+}
+
+@media (max-width: 750px) {
+	.bottom-footer{
+		padding: 10px;
+	}
+
+	.footer-mobile{
+		margin-top: 10px;
+		text-align: center;
+		width: 100%;
+		font-size: 12px;
 	}
 }
