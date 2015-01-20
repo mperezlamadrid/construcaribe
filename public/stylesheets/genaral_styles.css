@@ -1,4 +1,8 @@
 /*GENERAL STYLES*/
+*{
+	font-family: "open sans";
+}
+
 .row{
 	margin: 0px;
 }
@@ -12,6 +16,13 @@
 	text-align: center;
 }
 
+#carousel-example-generic{
+	padding-top: 82px;
+}
+
+.row.title-section{
+	padding-top: 102px!important;
+}
 /*HEADER*/
 
 .navbar.navbar-inverse{
@@ -114,6 +125,9 @@ ul.nav.navbar-nav li:hover a{
 }
 
 /*OUR SOLUTIONS*/
+.our-solutions{
+	background: #B7D3DA;
+}
 
 .our-solutions-body, .our-solutions-header{
 	text-align: center;
@@ -129,7 +143,7 @@ ul.nav.navbar-nav li:hover a{
 }
 
 .solutions-imges{
-	background: #ccc;
+	background: #820701;
 	border-radius: 50%;
 	width: 164px;
 	height: 163px;
@@ -155,6 +169,12 @@ ul.nav.navbar-nav li:hover a{
 
 	.carousel h1{
 		font-size: 20px;
+	}
+
+	.navbar-header a.navbar-brand img{
+		height: 60px;
+		margin-top: -5px;
+		margin-left: -10px;
 	}
 }
 
