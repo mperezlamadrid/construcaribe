@@ -23,8 +23,22 @@
 	margin: 0 10px !important;
 }
 
-ul.nav.navbar-nav li:hover{
-	background-color: #000;
+.navbar-header{
+	height: 80px;
+}
+
+.navbar-toggle{
+	padding: 12px 13px;
+	margin-top: 20px;
+}
+
+ul.nav.navbar-nav{
+	margin-top: 15px;
+}
+
+.navbar-header a img{
+	height: 70px;
+	margin-top: -10px;
 }
 
 /*FOOTER*/
