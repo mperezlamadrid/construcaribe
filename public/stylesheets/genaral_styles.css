@@ -16,13 +16,10 @@
 	text-align: center;
 }
 
-#carousel-example-generic{
-	padding-top: 82px;
+#header-hide{
+	height: 82px;
 }
 
-.row.title-section{
-	padding-top: 102px!important;
-}
 /*HEADER*/
 
 .navbar.navbar-inverse{
