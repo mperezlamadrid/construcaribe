@@ -19,6 +19,9 @@
 	margin-bottom: 0px;
 	background-color: white;
 	border-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
 .carousel .carousel-indicators li{
