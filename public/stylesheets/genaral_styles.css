@@ -17,6 +17,8 @@
 .navbar.navbar-inverse{
 	border-radius: 0px;
 	margin-bottom: 0px;
+	background-color: white;
+	border-color: white;
 }
 
 .carousel .carousel-indicators li{
@@ -36,9 +38,21 @@ ul.nav.navbar-nav{
 	margin-top: 15px;
 }
 
+ul.nav.navbar-nav li:hover a{
+	color: #000;
+}
+
 .navbar-header a img{
 	height: 70px;
 	margin-top: -10px;
+}
+
+.navbar-toggle.collapsed span.icon-bar, .navbar-inverse .navbar-toggle:hover span, .navbar-inverse .navbar-toggle:focus span, .navbar-inverse .navbar-toggle:active span, .navbar-inverse .navbar-toggle span.icon-bar{
+	background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active{
+	background-color: #FFF;
 }
 
 /*FOOTER*/
